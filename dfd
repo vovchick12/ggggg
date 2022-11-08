@@ -1,0 +1,4 @@
+a=input()
+while a!="stop":
+  print(a)
+a=input()
