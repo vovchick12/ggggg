@@ -1,0 +1,6 @@
+p="12345"
+a=input()
+if a==p:
+  print("dbhyf")
+else:
+   print("y")
