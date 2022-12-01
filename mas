@@ -1,0 +1,12 @@
+mas = [2, 8, 4, 5, 1, 9]
+d = len(mas)
+
+while True:
+    d -= 1
+    if d == 1:
+        break
+    for i in range(d):
+        print(mas[i], mas[i + 1])
+        if mas[i] > mas[i + 1]:
+            mas[i], mas[i + 1] = mas[i + 1], mas[i]
+        print(mas)
