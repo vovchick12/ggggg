@@ -1,0 +1,5 @@
+a=0
+mas=[1,2,3]
+for i in mas:
+    a=a+i
+print(a)
