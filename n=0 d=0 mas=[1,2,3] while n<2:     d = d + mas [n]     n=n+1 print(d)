@@ -1,0 +1,7 @@
+n=0
+d=0
+mas=[1,2,3]
+while n<2:
+    d = d + mas [n]
+    n=n+1
+print(d)
